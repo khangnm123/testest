@@ -1,0 +1,52 @@
+@import './variable_.scss';
+//========Nơi để xử lý Footer============//
+footer{
+    background-color: $color-pink5E;
+    padding: 45px 30px;
+    .row>*{
+        padding: unset !important;
+    }
+    ul{
+        li{
+            padding-bottom: 15px;
+            #test{
+                font-size: 24px;
+                color: $color-green;
+            }
+            a{
+                color: $color-green;
+                font-size: 16px;
+            }
+        }
+        .row{
+          img{
+            width: 25px;
+            height: 25px;
+            margin-bottom: 15px;
+          }
+        }
+    }
+    .list_contest{
+        display: grid !important;
+        grid-template-columns: auto auto auto auto;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
+.footer_end{
+    background-color: $color-green;
+    padding: 25px 5px;
+    .text_a{
+        a{
+        color: #FFFFFF;
+        font-size: 16px;
+        }
+    }
+    .text1_a{
+        margin-right: 65px;
+       a{
+        color: #FFFFFF;
+        font-size: 16px;
+       }
+    }
+}

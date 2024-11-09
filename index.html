@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+             <!-- Boostrap Thanh nav đầu của Header trên cùng -->
+             <section class="nav_top w-100 text-center">
+                <p class="d-none d-sm-block d-md-block">Free shipping and get 25% Off becoming a Dewy Member today!</p>
+                <p class="d-block d-sm-none d-md-none">Free shipping and get 25% Off today!</p>
+            </section>
+             <!-- Boostrap Thanh nav đầu của Menu trên cùng -->
+             <section class="nav_bottom">
+                <div class="nav_bottom-center">
+                    <div class="w-100 position-relative center_flex">
+                        <div class="list_content d-none d-sm-none d-md-flex align-items-center justify-content-md-around justify-content-between">
+                            <div class="ul-left col-md-4 col-xl-5">
+                                <ul class="d-flex">
+                                    <li class="col-md-3 col-xl-4 "><a href="#">Shop</a></li>
+                                    <li class="col col-xl-4 "><a href="#">25% Off</a></li>
+                                    <li class="col col-xl-4 "><a href="./about.html">About Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="ul_center col-md-2 col-xl-3 d-flex justify-content-center">
+                                <ul>
+                                    <li class="col-md-4 col-xl-4 "><a href="#"><img src="./image/dewyheavenlogo 1 (1).png" alt=""></a></li>
+                                </ul>
+                               
+                            </div>
+                            <div class="ul_right col-4">
+                                <ul class="d-flex">
+                                    <li class="col-md-2 col-xl-3 "><a href="#">Blog</a></li>
+                                    <li class="col-md-4 col-xl-4 "><a href="#">Contact</a></li>
+                                    <li class="" ><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                                    <li class="" ><a href="#"><i class="fa-regular fa-user"></i></a></li>
+                                    <li class="" ><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+                                    <li class="" ><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="list_content list_content1 d-flex d-sm-flex d-md-none align-items-center justify-content-between">
+                            <div class="ul_left col-md-4 col-xl-5">
+                                <ul class="d-flex">
+                                    <li class="" ><a href="#"><img src="./image/cart/Frame.png" alt=""></a></li>
+                                    <li class="d-none d-sm-block" ><a href="#"><img src="./image/cart/image 27.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                            <div class="ul_center col-md-4 col-xl-3 d-flex justify-content-center">
+                                <ul>
+                                    <li class="col-md-4 col-xl-4 "><a href="#"><img src="./image/dewyheavenlogo 1 (1).png" alt=""></a></li>
+                                </ul>
+                               
+                            </div>
+                            <div class="ul_right col-md-4 col-xl-4">
+                                <ul class="d-flex justify-content-end">
+                             
+                                    <li class="" ><a href="#"><img src="./image/cart/image 28.png" alt=""></i></a></li>
+                                    <li class="" ><a href="#"><img src="./image/cart/image 29.png" alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                            <!--List Menu-->
+                        </div>
+                    </div>
+            </section>
+            <!--Text-->
+            <section class="text_cart">
+                <div class="center_flex">
+                      <h3>Home / Cart</h3>
+                </div>
+              
+            </section>
+            <!--Shopping Cart-->
+            <section class="shopping_cart w-100 position-relative">
+                <div class="center_flex">
+                    <div class="text-center">
+                        <h2>Your Shopping Cart</h2>
+                        <div class="items d-flex justify-content-center">
+                            <p>3 items</p><span>in your cart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="list_card w-100 position-relative">
+                    <div class="center_flex h-auto">
+                        <div class="list_item d-block position-relative">
+                            <div class="item">
+                                <div class="item_flex d-flex col justify-content-center">
+                                    <div class="item_image ">
+                                        <img src="./image/cart/image.png" alt="">
+                                    </div>
+                                    <div class="item_text col-sm-6 col-md-8 col-xl-8 ">
+                                        <div class="text_h3">
+                                        <h3>Superfood Cleanser</h3>
+                                        <p>SKU: 812343034358</p>
+                                        </div>
+                                        <div class="button_left d-flex align-items-center">
+                                            <div class="button_select col-xl-5">
+                                                <button class="d-flex justify-content-between">
+                                                    <a href="#">Select Style</a>
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                                
+                                           </div>
+                                           <div class="button_count">
+                                                <button >
+                                                    <a href="#" class="d-flex position-relative">
+                                                        <i id="left1">-</i>
+                                                            1   
+                                                        <i id="right1">+</i>
+                                                    </a>
+                                                </button>
+                                           </div>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="item_button d-none d-sm-block d-md-block col-xl-1 position-relative">
+                                        <div class="price_money">
+                                            <p>$39</p>
+                                        </div>
+                                        <div class="heart_right">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div class="text_bottom d-none d-sm-flex d-md-flex w-100">
+                                            <p>Edit</p>
+                                            <p>Remove</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item_button1 d-flex col-sm-10 col-xl-1 d-sm-none d-md-none position-relative justify-content-between">
+                                    <ul class="d-flex">
+                                        <li><a href="#">Add to Wishlist</a></li>
+                                        <li><a href="#">Edit</a></li>
+                                        <li><a href="#">Remove</a></li>
+                                    </ul>
+                                    <p>$39</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_flex d-flex">
+                                    <div class="item_image ">
+                                        <img src="./image/cart/image.png" alt="">
+                                    </div>
+                                    <div class="item_text col-md-7  col-xl-8">
+                                        <div class="text_h3">
+                                        <h3>Superfood Cleanser</h3>
+                                        <p>SKU: 812343034358</p>
+                                        </div>
+                                        <div class="button_left d-flex align-items-center">
+                                            <div class="button_select col-xl-5">
+                                                <button class="d-flex justify-content-between">
+                                                    <a href="#">Select Style</a>
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                                
+                                           </div>
+                                           <div class="button_count">
+                                                <button >
+                                                    <a href="#" class="d-flex position-relative">
+                                                        <i id="left1">-</i>
+                                                            1   
+                                                        <i id="right1">+</i>
+                                                    </a>
+                                                </button>
+                                           </div>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="item_button d-none d-sm-block d-md-block col-xl-1 position-relative">
+                                        <div class="price_money">
+                                            <p>$39</p>
+                                        </div>
+                                        <div class="heart_right">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div class="text_bottom d-none d-sm-flex d-md-flex w-100">
+                                            <p>Edit</p>
+                                            <p>Remove</p>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                <div class="item_button1 d-flex d-sm-none d-md-none col-sm-10 col-xl-1 position-relative justify-content-between">
+                                    <ul class="d-flex">
+                                        <li><a href="#">Add to Wishlist</a></li>
+                                        <li><a href="#">Edit</a></li>
+                                        <li><a href="#">Remove</a></li>
+                                    </ul>
+                                    <p>$39</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="item_flex d-flex">
+                                    <div class="item_image ">
+                                        <img src="./image/cart/image.png" alt="">
+                                    </div>
+                                    <div class="item_text col-md-7  col-xl-8">
+                                        <div class="text_h3">
+                                        <h3>Superfood Cleanser</h3>
+                                        <p>SKU: 812343034358</p>
+                                        </div>
+                                        <div class="button_left d-flex align-items-center">
+                                            <div class="button_select col-xl-5">
+                                                <button class="d-flex justify-content-between">
+                                                    <a href="#">Select Style</a>
+                                                    <i class="fa-solid fa-chevron-down"></i>
+                                                </button>
+                                                
+                                           </div>
+                                           <div class="button_count">
+                                                <button >
+                                                    <a href="#" class="d-flex position-relative">
+                                                        <i id="left1">-</i>
+                                                            1   
+                                                        <i id="right1">+</i>
+                                                    </a>
+                                                </button>
+                                           </div>
+                                        </div>
+                                       
+                                    </div>
+                                    <div class="item_button d-none d-sm-block d-md-block col-xl-1 position-relative">
+                                        <div class="price_money">
+                                            <p>$39</p>
+                                        </div>
+                                        <div class="heart_right">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </div>
+                                        <div class="text_bottom d-none d-sm-flex d-md-flex w-100">
+                                            <p>Edit</p>
+                                            <p>Remove</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item_button1 d-flex d-sm-none d-md-none col-sm-10 col-xl-1 position-relative justify-content-between">
+                                    <ul class="d-flex">
+                                        <li><a href="#">Add to Wishlist</a></li>
+                                        <li><a href="#">Edit</a></li>
+                                        <li><a href="#">Remove</a></li>
+                                    </ul>
+                                    <p>$39</p>
+                                </div>
+                            </div>
+                            <div class="cart_total">
+                                <div class="text_total d-flex justify-content-between">
+                                    <h2>Cart Total</h2>
+                                    <p>$117</p>
+                                </div>
+                                <div class="button_flex d-flex justify-content-center align-items-center">
+                                    <button class="button_left1 col-5 col-sm-4 col-md-4">
+                                        <a href="#">Go Back</a>
+                                    </button>
+                                    <button class="button_left2 col-5 col-sm-4 col-md-4">
+                                        <a href="#">Check Out</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--Cart Slider-->
+            <section class="cart_slider d-none d-md-block d-xl-flex w-100 position-relative">
+                <div class="center_flex">
+                    <h3>You may also like</h3>
+                    <div class="row">
+                        <div class="swiper Cardimagee">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="item position-relative col-xl-12">
+                                                <img src="./image/cart/Mask group.png" alt="">
+                                                <div class="text_slider">
+                                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                                    <p>Odyssey Fun Size Lip</p>
+                                                </div>        
+                                                <div class="start d-flex align-items-center">
+                                                    <div class="rate">
+                                                        <input type="radio" id="star5" name="rate" value="5" />
+                                                        <label for="star5" title="text">5 stars</label>
+                                                        <input type="radio" id="star4" name="rate" value="4" />
+                                                        <label for="star4" title="text">4 stars</label>
+                                                        <input type="radio" id="star3" name="rate" value="3" />
+                                                        <label for="star3" title="text">3 stars</label>
+                                                        <input type="radio" id="star2" name="rate" value="2" />
+                                                        <label for="star2" title="text">2 stars</label>
+                                                        <input type="radio" id="star1" name="rate" value="1" />
+                                                        <label for="star1" title="text">1 star</label>
+                                                      </div>
+                                                    <div class="text_review">
+                                                            <p>3 Reviews</p>
+                                                    </div>
+                                                </div>
+                                                <div class="button_add ">
+                                                    <button class="d-flex justify-content-md-between col-xl-10 align-items-center">
+                                                        <a href="#">Add to Cart</a>
+                                                        <div class="text_price d-flex ">
+                                                            <p>$12</p>
+                                                            <p id="pd">$20</p>
+                                                        </div>
+                                                    </button>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cart_slider1 d-md-none d-xl-none w-100 position-relative">
+                <div class="center_flex">
+                    <h3>You may also like</h3>
+                    <div class="row">
+                            <div class="col">
+                                <div class="item position-relative col-xl-12">
+                                <img src="./image/cart/Mask group.png" alt="">
+                                <div class="text_slider">
+                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                    <p>Odyssey Fun Size Lip</p>
+                                </div>        
+                                <div class="start d-flex align-items-center">
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                      </div>
+                                    <div class="text_review">
+                                            <p>3 Reviews</p>
+                                    </div>
+                                </div>
+                                <div class="button_add ">
+                                    <button class="d-flex justify-content-between  col-md-10 col-xl-10 align-items-center">
+                                        <a href="#">Add to Cart</a>
+                                        <div class="text_price d-flex ">
+                                            <p>$12</p>
+                                            <p id="pd">$20</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                </div>
+                             </div>
+                             <div class="col">
+                                <div class="item position-relative col-xl-12">
+                                <img src="./image/cart/Mask group.png" alt="">
+                                <div class="text_slider">
+                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                    <p>Odyssey Fun Size Lip</p>
+                                </div>        
+                                <div class="start d-flex align-items-center">
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                      </div>
+                                    <div class="text_review">
+                                            <p>3 Reviews</p>
+                                    </div>
+                                </div>
+                                <div class="button_add ">
+                                    <button class="d-flex justify-content-between  col-md-10 col-xl-10 align-items-center">
+                                        <a href="#">Add to Cart</a>
+                                        <div class="text_price d-flex ">
+                                            <p>$12</p>
+                                            <p id="pd">$20</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="w-100">  </div>
+                            <div class="col">
+                                <div class="item position-relative col-xl-12">
+                                <img src="./image/cart/Mask group.png" alt="">
+                                <div class="text_slider">
+                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                    <p>Odyssey Fun Size Lip</p>
+                                </div>        
+                                <div class="start d-flex align-items-center">
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                      </div>
+                                    <div class="text_review">
+                                            <p>3 Reviews</p>
+                                    </div>
+                                </div>
+                                <div class="button_add ">
+                                    <button class="d-flex justify-content-between  col-md-10 col-xl-10 align-items-center">
+                                        <a href="#">Add to Cart</a>
+                                        <div class="text_price d-flex ">
+                                            <p>$12</p>
+                                            <p id="pd">$20</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="item position-relative col-xl-12">
+                                <img src="./image/cart/Mask group.png" alt="">
+                                <div class="text_slider">
+                                    <h4 >Odyssey Fun Size Lip Gloss Faves</h4>
+                                    <p>Odyssey Fun Size Lip</p>
+                                </div>        
+                                <div class="start d-flex align-items-center">
+                                    <div class="rate">
+                                        <input type="radio" id="star5" name="rate" value="5" />
+                                        <label for="star5" title="text">5 stars</label>
+                                        <input type="radio" id="star4" name="rate" value="4" />
+                                        <label for="star4" title="text">4 stars</label>
+                                        <input type="radio" id="star3" name="rate" value="3" />
+                                        <label for="star3" title="text">3 stars</label>
+                                        <input type="radio" id="star2" name="rate" value="2" />
+                                        <label for="star2" title="text">2 stars</label>
+                                        <input type="radio" id="star1" name="rate" value="1" />
+                                        <label for="star1" title="text">1 star</label>
+                                      </div>
+                                    <div class="text_review">
+                                            <p>3 Reviews</p>
+                                    </div>
+                                </div>
+                                <div class="button_add ">
+                                    <button class="d-flex justify-content-between  col-md-10 col-xl-10 align-items-center">
+                                        <a href="#">Add to Cart</a>
+                                        <div class="text_price d-flex ">
+                                            <p>$12</p>
+                                            <p id="pd">$20</p>
+                                        </div>
+                                    </button>
+                                </div>
+                                </div>
+                            </div>
+                          
+                    </div>
+                </div>
+            </section>
+            <!--Footer Content-->
+            <footer>
+                <div class="footer_content w-100 position-relative">
+                        <div class="center_flex d-none d-sm-block">
+                            <div class="row list_contest justify-content-between">
+                                    <div>
+                                        <ul class=" ">
+                                            <li><a href="#" id="test">Customer care</a></li>
+                                            <li><a href="#">Track My Order</a></li>
+                                            <li><a href="#">Returns</a></li>
+                                            <li><a href="#">Gift Cards</a></li>
+                                            <li><a href="#">Size Guide</a></li>
+                                        </ul>
+                                    </div>
+                                    <div >
+                                        <ul class=" ">
+                                            <li><a href="#" id="test">About Us</a></li>
+                                            <li><a href="#">Group</a></li>
+                                            <li><a href="#">Foundation</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="#">News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div >
+                                        <ul class=" ">
+                                            <li><a href="#" id="test">MISC</a></li>
+                                            <li><a href="#">Dewy Life</a></li>
+                                            <li><a href="#">kits & Bundle</a></li>
+                                            <li><a href="#">Press</a></li>
+                                        </ul >
+                                    </div>
+                                    <div >
+                                        <ul class="">
+                                            <li ><a href="#" id="test">Follow Us</a></li>
+                                            <div class="row col-10 justify-content-around">
+                                                <div class="col-3"><i><img src="./image/cart/image 3.png" alt=""></i></div>
+                                                <div class="col-3"><img src="./image/cart/image 2.png" alt=""></div>
+                                                <div class="w-100"></div>
+                                                <div class="col-3"><img src="./image/cart/image 1.png" alt=""></div>
+                                                <div class="col-3"><img src="./image/cart/image 4.png" alt=""></div>
+                                              </div>
+                                        </ul>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="center_flex d-block d-sm-none">
+                            <div class="accordion2">
+                                <div class="accordion-content">
+                                    <header>
+                                        <span class="title">Customer Care</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </header>
+                                    <div class="center_flex description">
+                                        <ul class=" ">
+                                            
+                                            <li><a href="#">Track My Order</a></li>
+                                            <li><a href="#">Returns & Exchanges</a></li>
+                                            <li><a href="#">Gift Cards</a></li>
+                                            <li><a href="#">Size Guide</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="accordion-content">
+                                    <header>
+                                        <span class="title">About Us</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </header>
+                                    <div class="center_flex description">
+                                        <ul class=" ">
+                                         
+                                            <li><a href="#">Group</a></li>
+                                            <li><a href="#">Foundation</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="#">News</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="accordion-content">
+                                    <header>
+                                        <span class="title">Misc</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </header>
+                                   <div class="center_flex description">
+                                    <ul class=" ">
+                                      
+                                        <li><a href="#">Dewy Life</a></li>
+                                        <li><a href="#">kits & Bundle</a></li>
+                                        <li><a href="#">Press</a></li>
+                                    </ul >
+                                   </div>
+                                </div>
+                                <div class="accordion-content">
+                                    <header>
+                                        <span class="title">Follow Us</span>
+                                        <i class="fa-solid fa-chevron-down"></i>
+                                    </header>
+                                   <div class="center_flex description">
+                                    <ul class="">
+                                    
+                                        <div class="row col-10 justify-content-around">
+                                            <div class="col-3"><i><img src="./image/cart/image 3.png" alt=""></i></div>
+                                            <div class="col-3"><img src="./image/cart/image 2.png" alt=""></div>
+                                            <div class="w-100"></div>
+                                            <div class="col-3"><img src="./image/cart/image 1.png" alt=""></div>
+                                            <div class="col-3"><img src="./image/cart/image 4.png" alt=""></div>
+                                          </div>
+                                    </ul>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </footer>
+            <!--Footer End-->
+            <section class="footer_end">
+                <div class="footer_end-bg center_flex">
+                    <div class="text_content d-flex justify-content-between">
+                        <div class="text_a">
+                            <a href="#">© 2024 Dewy Heaven</a>
+                        </div>
+                        <div class="text1_a">
+                            <a href="#">Privacy & Cookies | </a>  <a href="#">Ts&Cs | </a><a href="#">Accessibility</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./Javascript/swiper-bundle.min.js"></script>
+    <script src="./Javascript/swiper_carousel.js"></script>
+    <script>
+        var Cardimage = new Swiper(".Cardimagee", {
+    slidesPerView: 5,
+    spaceBetween: 10,
+    navigation:{
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        320:{
+            slidesPerView:2,
+            spaceBetween:10,
+        },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 40,
+      },
+      1024: {
+        slidesPerView: 4,
+        spaceBetween: 50,
+      },
+    },
+  }); 
+    </script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap");
+.center_flex {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#pd {
+  padding: 0px 8px;
+}
+
+.center_flex {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#pd {
+  padding: 0px 8px;
+}
+
+.button_left {
+  padding-top: 50px;
+}
+.button_left .button_select {
+  margin-right: 15px;
+}
+.button_left .button_select button {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background-color: #76C78D;
+  width: 240px;
+  height: 45px;
+  padding: 10px 15px 10px 15px;
+  align-items: center;
+}
+.button_left .button_select button a {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+}
+.button_left .button_select button i {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: bold;
+}
+.button_left .button_count button {
+  border: none !important;
+  outline: none;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: none;
+}
+.button_left .button_count button a {
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 3px 40px;
+  font-size: 24px;
+  color: #000;
+}
+.button_left .button_count button #left1 {
+  position: absolute;
+  left: 8px;
+  font-size: 24px;
+  color: #000;
+}
+.button_left .button_count button #right1 {
+  position: absolute;
+  right: 8px;
+  font-size: 24px;
+  color: #000;
+}
+
+.button_flex {
+  padding-top: 50px;
+}
+.button_flex button {
+  padding: 15px 5px;
+  margin: 0px 10px;
+}
+.button_flex .button_left1 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: none;
+  border: 2px solid #003F12;
+}
+.button_flex .button_left1 a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+.button_flex .button_left2 {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #003F12;
+  border: 2px solid #003F12;
+}
+.button_flex .button_left2 a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.button_add {
+  padding-top: 15px;
+}
+.button_add button {
+  padding: 5px 5px;
+}
+.button_add button a {
+  color: #000;
+  font-weight: bold;
+}
+.button_add button .text_price p {
+  font-size: 16px;
+  font-weight: bold;
+}
+.button_add button .text_price #pd {
+  color: #5B5B5B;
+  text-decoration: line-through;
+  font-size: 16px;
+}
+
+.email_button input {
+  border: 1px solid #000;
+  border-radius: 10px;
+  border: 2px solid #000;
+  width: 100%;
+  padding: 15px;
+  font-style: italic;
+  font-size: 18px;
+  margin-top: 38px;
+  margin-bottom: 20px;
+}
+
+.button_submit button {
+  border: none;
+  background: none;
+  outline: none;
+  padding-top: 20px;
+}
+.button_submit button a {
+  border: 1px solid #000;
+  border-radius: 10px;
+  background: #FCB7BB;
+  border: 2px solid #000000;
+  padding: 16px 70px;
+  color: #000000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rate {
+  float: left;
+  height: 30px;
+}
+
+.rate:not(:checked) > input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked) > label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 15px;
+  color: #000;
+}
+
+.rate:not(:checked) > label:before {
+  content: "★ ";
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #000;
+}
+
+.accordion2 {
+  width: 100%;
+  background: none;
+  margin: 0 0px;
+  border: none;
+  outline: none;
+}
+
+.accordion2 .accordion-content {
+  margin: 0px 0px;
+  background: #FFF7F0;
+  overflow: hidden;
+  background-color: #F5E2D6;
+}
+
+.accordion2 .accordion-content header .title {
+  color: #000000;
+  width: 100%;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.accordion2 .accordion-content header i {
+  color: #000000;
+}
+
+.accordion2 .accordion-content .center_flex {
+  background-color: #76C78D;
+  text-align: left;
+}
+
+.accordion-content header {
+  display: flex;
+  min-height: 50px;
+  padding: 0 15px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.2s linear;
+}
+
+.accordion-content.open header {
+  min-height: 35px;
+}
+
+.accordion-content header .title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.accordion-content header i {
+  font-size: 15px;
+  color: #333;
+}
+
+.accordion-content .description {
+  height: 0;
+  font-size: 12px;
+  color: #FFFFFF;
+  font-weight: 400;
+  padding: 0 15px;
+  transition: all 0.2s linear;
+  display: flex;
+  max-width: 1200px;
+  justify-content: center;
+}
+
+.accordion-content .description ul {
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+.accordion-content .description ul li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.accordion-content .description ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
+
+.shopping_cart {
+  padding: 0px 5px;
+}
+.shopping_cart .text-center h2 {
+  font-size: 36px;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #003F12;
+  text-transform: uppercase;
+}
+.shopping_cart .text-center p {
+  font-weight: bold;
+  font-size: 16px;
+  font-weight: bold;
+  color: #003F12;
+  padding: 0px 5px;
+  font-size: 20px;
+}
+.shopping_cart .text-center span {
+  font-size: 20px;
+  color: #003F12;
+}
+.shopping_cart .list_card {
+  margin: 20px 0px;
+}
+.shopping_cart .list_card .center_flex {
+  border: 1px solid #000;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+.shopping_cart .list_card .list_item {
+  padding: 60px;
+}
+.shopping_cart .list_card .list_item .item_image {
+  margin-right: 30px;
+}
+.shopping_cart .list_card .list_item .item_button .price_money p {
+  font-size: 28px;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+}
+.shopping_cart .list_card .list_item .item_button .heart_right {
+  padding-top: 70px;
+  text-align: center;
+}
+.shopping_cart .list_card .list_item .item_button .heart_right i {
+  font-size: 31px;
+}
+.shopping_cart .list_card .list_item .item_button1 {
+  padding: 0px 5px;
+}
+.shopping_cart .list_card .list_item .item_button1 ul li a {
+  color: #003F12;
+  font-size: 12px;
+  text-decoration: underline;
+  margin: 0px 10px;
+}
+.shopping_cart .list_card .list_item .item_button1 p {
+  font-size: 16px;
+  color: #003F12;
+  font-weight: bold;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.shopping_cart .list_card .list_item .item_text .text_h3 {
+  color: #003F12;
+}
+.shopping_cart .list_card .list_item .item_text .text_h3 h3 {
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.shopping_cart .list_card .list_item .item_text .text_h3 p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #003F12;
+  font-weight: 200;
+}
+.shopping_cart .list_card .list_item .cart_total {
+  border-top: 2px solid #003F12;
+  padding-top: 40px;
+}
+.shopping_cart .list_card .list_item .cart_total h2 {
+  font-size: 28px;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #003F12;
+  text-transform: uppercase;
+}
+.shopping_cart .list_card .list_item .cart_total p {
+  margin-right: 40px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #003F12;
+}
+
+.item {
+  padding: 50px 0px;
+  border-top: 1px solid #000;
+}
+.item .text_bottom {
+  position: absolute;
+  bottom: 0px;
+  left: 15px;
+  justify-content: right;
+}
+.item .text_bottom p {
+  font-size: 20px;
+  margin-right: 25px;
+  text-decoration: underline;
+  line-height: 2px;
+}
+
+.cart_slider {
+  padding: 40px 5px 0px 5px;
+}
+.cart_slider h3 {
+  font-size: 32px;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #003F12;
+}
+.cart_slider .row {
+  margin: unset;
+}
+.cart_slider .row .item {
+  border-top: unset;
+}
+.cart_slider .row .item h4 {
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 0px;
+  margin: unset;
+}
+.cart_slider .row .item .start .text_review p {
+  text-decoration: underline;
+  color: #000;
+  font-size: 10px;
+}
+.cart_slider .row .item .text_slider {
+  padding-top: 30px;
+}
+.cart_slider .row .item .text_slider p {
+  font-size: 18px;
+}
+
+.cart_slider1 {
+  padding: 40px 5px 0px 5px;
+}
+.cart_slider1 h3 {
+  font-size: 32px;
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: #003F12;
+}
+.cart_slider1 .row {
+  margin: unset;
+}
+.cart_slider1 .row .item {
+  border-top: unset;
+}
+.cart_slider1 .row .item h4 {
+  font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  padding: 10px 0px;
+  margin: unset;
+}
+.cart_slider1 .row .item .start .text_review p {
+  text-decoration: underline;
+  color: #000;
+  font-size: 10px;
+}
+.cart_slider1 .row .item .text_slider {
+  padding-top: 30px;
+}
+.cart_slider1 .row .item .text_slider p {
+  font-size: 18px;
+}
+.cart_slider1 .row img {
+  width: 100%;
+  object-fit: cover;
+}
+.cart_slider1 .row .button_add button {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Cart_.css.map */

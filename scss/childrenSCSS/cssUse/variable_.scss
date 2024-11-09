@@ -1,0 +1,77 @@
+//Variable Color
+
+//Primary color
+$color-green : #003F12;
+$color-pink  : #FCB7BB;
+//Secondary color
+$color-pink5E : #F5E2D6;
+$color-green6C: #76C78D;
+$color-pinkFE : #FFEAE8;
+$color-smoke  : #E2F0E3;
+
+//Variable Font-Size
+@mixin font-h1{
+    font-size: 40px;
+};
+@mixin font-h2{
+    font-size: 36px;
+};
+@mixin font-h3{
+    font-size: 32px;
+};
+@mixin font-h4{
+    font-size: 28px;
+};
+
+//Import Font-Family
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,500;1,14..32,500&family=Unbounded:wght@500&family=Urbanist:wght@500&display=swap');
+@mixin font-Unbounded{
+    font-family: "Unbounded", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+};
+@mixin font-Urbanist{
+    font-family: "Urbanist", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+//Variable Font-Urbanist
+@mixin Urbanist-Medium{
+    font-size: 16px;
+    font-weight: bold;
+    color: $color-green;
+}
+@mixin Urbanist-Medium16{
+    font-size: 14px;
+}
+@mixin Urbanist-Bold{
+    font-size: 16px;
+    font-weight: bold;
+}
+@mixin Button-Urbanist{
+    font-size: 12px;
+    font-weight: bold;
+}
+@mixin boder_bold{
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+//Tai su dung code
+.center_flex{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#pd{
+    padding: 0px 8px;
+}
+@mixin buttonUse{
+    border: none !important;
+    outline: none;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background: none;
+}

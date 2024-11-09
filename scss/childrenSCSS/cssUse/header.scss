@@ -1,0 +1,70 @@
+//==============Header==============//
+@import './variable_.scss';
+.nav_top{
+    background-color: $color-green;
+    @include Urbanist-Medium;
+    color:#FFFFFF;
+    font-size: 20px;
+    padding: 5px 5px;
+}
+.nav_bottom{
+    background-color: $color-pink5E;
+    .list_content{
+        @include font-Urbanist;
+        padding: 10px 5px;
+        li{
+            
+            a{
+                color: $color-green;
+                @include Urbanist-Medium;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            img{
+                height: 120px;
+            }
+        }
+        .ul_right{
+            li{
+                margin: 0px 5px;
+            }
+        }
+    }
+    .list_content1{
+        .ul_left{
+            li{
+                padding: 0px 5px;
+                a{
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+        .ul_right{
+            li{
+                padding: 0px 5px;
+                a{
+                    img{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+.text_cart{
+    padding: 0px 15px;
+    .center_flex{
+       padding-top: 47px;
+       padding-bottom: 20px;
+        h3{
+            @include Urbanist-Medium;
+            font-size: 20px;
+            font-weight: 500;
+            color: $color-green;
+        }
+    }
+}
